@@ -6,13 +6,6 @@ public class Pet {
     private double weight;
     private boolean isSterile;
 
-    public Pet() {
-        this.type = "dog"; // WE PICK the initial values!
-        this.name = "Dogananticavious";
-        this.age = 3;
-        this.weight = 50.0;
-        this.isSterile = true; 
-    }
 
 
     public Pet(String t, String n, int a, double w, boolean iS) {
