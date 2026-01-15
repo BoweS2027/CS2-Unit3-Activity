@@ -34,7 +34,7 @@ public boolean getisSterile(){
     return isSterile;
 }
 public String toString(){
-    String state = "Pet[" + type + ", " + name + ", " + age + ", " + weight + "," + isSterile + "]";
+    String state = "Pet[type: " + type + ", name: " + name + ", age: " + age + ", weight: " + weight + ", isSterile: " + isSterile + "]";
     return state;
 }
 }

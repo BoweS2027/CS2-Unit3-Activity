@@ -6,6 +6,8 @@ public class Main {
          // TEST all Pet methods (getters, toString, setters)
          System.out.println(dog);
          System.out.println(cat);
+         System.out.println("dog name: " + dog.getName());
+         System.out.println("cat name: " + cat.getName());
     
      }
  }
